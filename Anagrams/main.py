@@ -8,6 +8,10 @@ import numpy as np
 import anagram
 from pynput import mouse
 
+
+terminate = False
+
+
 def get_window():
     app = appscript.app('System Events').application_processes['iPhone Mirroring']
     position = app.windows[0].position()
@@ -100,6 +104,8 @@ def main():
     coords = create_coords(position, size)
     map = map_letters_to_coords(text, coords)
     for combo in combos:
+        if terminate:
+            break
         print(str(combo))
         move_mouse(map, combo, position, size)
     print("done")
