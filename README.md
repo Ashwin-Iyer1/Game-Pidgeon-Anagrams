@@ -20,5 +20,6 @@ Utilizing the new iPhone Mirroring feature on mac to automate anagrams
 6. Quickly go to the iPhone Mirroring application and wait for the OCR to run
 5. If the console tells you that the OCR did not work, enter letters manually in 1 word (ABCDEF)
 6. Let the program move the mouse while you just keep clicking
+7. When stopping the program, it may perform the last few clicks / movements!!!!!!! (I do not know why)
    
    **This program is written quite poorly with little error handling so if you have any issues please refer to the video below
