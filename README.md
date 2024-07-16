@@ -1,4 +1,7 @@
-Utilizing the new iPhone Mirroring feature on mac to automate anagrams
+Utilizing the new iPhone Mirroring feature on MacOS to automate anagrams
+
+## Video Tutorial 
+<pre>https://youtu.be/UP74BFGNz6Q</pre>
 
 ## Prerequisites
 1. MacOS running MacOS 15 or higher
